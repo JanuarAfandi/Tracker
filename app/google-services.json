@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "97434455229",
+    "firebase_url": "https://tracking-bae3e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tracking-bae3e",
+    "storage_bucket": "tracking-bae3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97434455229:android:4fc8612113baee9e5d3bd4",
+        "android_client_info": {
+          "package_name": "com.pens.tracing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97434455229-kklvd3f64pp21darvakghsnmpkduha3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBieGgUExZuMdlfZeawY4rcmo1LwK0BtbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97434455229-kklvd3f64pp21darvakghsnmpkduha3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97434455229:android:4576e66b6ddee1475d3bd4",
+        "android_client_info": {
+          "package_name": "com.pens.trackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97434455229-kklvd3f64pp21darvakghsnmpkduha3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBieGgUExZuMdlfZeawY4rcmo1LwK0BtbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97434455229-kklvd3f64pp21darvakghsnmpkduha3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
