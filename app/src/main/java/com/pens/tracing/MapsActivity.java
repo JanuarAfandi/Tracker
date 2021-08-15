@@ -77,18 +77,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private void getLocationUpdates(){
         if(manager != null) {
-            if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED)&&
+            if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED&&
             ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
             if (manager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-                manager.requestLocationUpdates(LocationManager.GPS_PROVIDER, MIN_DISTANCE, this);
+                manager.requestLocationUpdates(LocationManager.GPS_PROVIDER,MIN_TIME, MIN_DISTANCE, this);
             }else if(manager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
                 manager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, MIN_TIME, MIN_DISTANCE, this);
             }else{
                 Toast.makeText(this, "No Provider Enabled", Toast.LENGTH_SHORT).show();
                 }
-            }else{
-                ActivityCompat.requestPermissions(this, new String[](Manifest.permission.ACCESS_FINE_LOCATION), 101);
             }
+        }else{
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 101);
         }
     }
 

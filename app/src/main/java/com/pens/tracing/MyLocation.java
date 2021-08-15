@@ -8,7 +8,7 @@ public class MyLocation {
         this.latitude = latitude;
         this.logitude = logitude;
     }
-    public MyLocation()
+    public MyLocation(){};
 
     public double getLatitude() {
         return latitude;
